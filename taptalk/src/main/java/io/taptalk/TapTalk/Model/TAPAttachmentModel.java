@@ -114,6 +114,25 @@ public class TAPAttachmentModel {
             titleResIds.add(R.string.tap_location);
             ids.add(ATTACH_LOCATION);
         }
+        if (Places.isInitialized() && !TapUI.getInstance(instanceKey).isLocationAttachmentDisabled()) {
+            // Attach location
+            imageResIds.add(R.drawable.tap_ic_location_orange);
+            titleResIds.add("Contact");
+            ids.add(ATTACH_LOCATION);
+        }
+        if (Places.isInitialized() && !TapUI.getInstance(instanceKey).isLocationAttachmentDisabled()) {
+            // Attach location
+            imageResIds.add(R.drawable.tap_ic_location_orange);
+            titleResIds.add("Orders");
+            ids.add(ATTACH_LOCATION);
+        }
+
+        if (Places.isInitialized() && !TapUI.getInstance(instanceKey).isLocationAttachmentDisabled()) {
+            // Attach location
+            imageResIds.add(R.drawable.tap_ic_location_orange);
+            titleResIds.add("Simulation");
+            ids.add(ATTACH_LOCATION);
+        }
 
 //        imageResIds.add(R.drawable.tap_ic_contact_pumpkin_orange);
 //        titleResIds.add(R.string.contact);
