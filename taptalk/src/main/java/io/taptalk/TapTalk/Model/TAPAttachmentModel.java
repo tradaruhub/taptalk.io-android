@@ -33,7 +33,7 @@ public class TAPAttachmentModel {
     public static final int ATTACH_CONTACT = 16;
 
     public static final int LONG_PRESS_REPLY = 201;
-    
+
     public static final int LONG_PRESS_FORWARD = 202;
     public static final int LONG_PRESS_COPY = 203;
     public static final int LONG_PRESS_OPEN_LINK = 204;
