@@ -114,6 +114,7 @@ public class TAPAttachmentModel {
             titleResIds.add(R.string.tap_location);
             ids.add(ATTACH_LOCATION);
         }
+        
         if (Places.isInitialized() && !TapUI.getInstance(instanceKey).isLocationAttachmentDisabled()) {
             // Attach location
             imageResIds.add(R.drawable.tap_ic_location_orange);
